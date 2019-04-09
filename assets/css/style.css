@@ -1,0 +1,23 @@
+.page-wrapper {
+    display: flex;
+    min-height: 100vh;
+    align-items: stretch;
+    color: blue;
+    font-size: 16px;
+    background: url("../images/bgAnimalGifs2.jpg");
+  }
+  
+  .left-column {
+    flex: 1;
+    background: rgb(248, 226, 130);
+    min-height:100vh;
+    padding: 25px;
+    box-shadow: 0 0 5px #222;
+    position: relative;
+    z-index: 999;
+  }
+  
+  .right-column {
+    flex: 4;
+    padding: 20px;
+  }

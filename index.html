@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+
+<title>GIF Tastic</title>
+</head>
+<body>
+
+    <div class="page-wrapper">
+
+        <div class="left-column">
+
+          <div class="card">
+            <h4 class="card-header bg-warning text-center">
+                Animal GIF Search
+            </h4>
+            <div class="card-body">
+              <!-- Start Card body -->
+              <form id="search-form" class="my-1">
+
+                <div class="form-group">
+                  <label for="search-input"><strong>Search Animal</strong></label>
+                  <input class="form-control" id="search-input" placeholder="Search" />
+                </div>
+
+                <button class="btn btn-block btn-outline-warning" type="submit">Search</button>
+              </form>
+        
+              <button id="clear" class="btn btn-block btn-outline-warning">Clear GIFs</button>
+
+              <!-- End Card body -->
+            </div> 
+            
+          </div>
+
+
+          <div class="card my-3">
+            <h4 class="card-header bg-warning text-center">
+              Animal List
+            </h4>
+            <div class="card-body">
+              <div id="animalGifsAdded"></div>
+            </div>
+          </div>
+
+        </div>
+    
+        <div class="right-column">
+          <h3 id="search-term" class="mb-3 text-center"></h3>
+
+          <div class="row" id="animalGifs"></div>
+        </div>
+    
+      </div>
+    
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>
+
